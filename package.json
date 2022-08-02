@@ -4,7 +4,8 @@
   "description": "Criação de API com intuito de praticar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mfjacome/APIJAVASCRIPT/issues"
   },
-  "homepage": "https://github.com/mfjacome/APIJAVASCRIPT#readme"
+  "homepage": "https://github.com/mfjacome/APIJAVASCRIPT#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
